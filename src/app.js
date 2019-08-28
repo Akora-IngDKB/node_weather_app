@@ -9,6 +9,8 @@ const publicDir = path.join(__dirname, '../public')
 const viewPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 
+const port = process.env.PORT || 3000
+
 const app = express()
 
 // Configure Handlebars for Express
@@ -71,6 +73,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Firing up the server on port 3000')
+app.listen(port, () => {
+    console.log('Firing up the server on port ' + port)
 })
