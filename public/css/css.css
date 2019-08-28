@@ -1,0 +1,28 @@
+body {
+    max-width: 700px;
+    background-color: grey;
+}
+
+h1 {
+    color: orange;
+    background: purple;
+}
+
+img {
+    width: 250;
+    border-radius: 50%;
+}
+
+input {
+    border: 1px #555 solid;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #4caf50;
+}

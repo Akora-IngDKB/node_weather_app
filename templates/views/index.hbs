@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DK Weather | {{title}}</title>
+    <link rel="stylesheet" href="css/css.css">
+
+</head>
+
+<body>
+    {{>header}}
+    <h1>Welcome to DK Weather, {{name}}</h1>
+    <p>This is a very cool project with handlebars</p><br>
+    <form>
+        <input type="text" placeholder="Location...">
+        <button>FORECAST</button>
+    </form>
+
+    <p id="message"></p>
+    <p id="message2"></p>
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
